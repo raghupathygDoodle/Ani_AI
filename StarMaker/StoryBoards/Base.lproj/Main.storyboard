@@ -2554,6 +2554,7 @@
                         <outlet property="btnSimilar" destination="ojG-eA-acT" id="zQc-Ei-cbb"/>
                         <outlet property="btnText" destination="LeW-Mh-2Su" id="WtB-YT-cuI"/>
                         <outlet property="btnVideo" destination="XWV-i4-9Ys" id="tM9-v4-Ge7"/>
+                        <outlet property="btnYoutube" destination="P1e-6r-1Fh" id="xs1-0c-IBk"/>
                         <outlet property="categoryCollectionView" destination="VIl-ho-Ts8" id="Jjt-8c-lFm"/>
                         <outlet property="categoryHeightConstraint" destination="GX4-6k-afa" id="bvi-6z-Crn"/>
                         <outlet property="dropDownTableView" destination="pTO-WL-YuY" id="CaD-yF-rRd"/>

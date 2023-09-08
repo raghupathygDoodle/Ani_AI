@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		10826819A8543A62DA136303 /* Pods_AniTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44A59C60D941C26E7AE79CC5 /* Pods_AniTests.framework */; };
-		6B541657A2B2EED6157B3684 /* Pods_Ani.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7BE91FE84037F62D8DB6ABF /* Pods_Ani.framework */; };
+		2CF2BA251755483A3F14A74F /* Pods_Ani_AI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D823BD6BCD920823DEE44D53 /* Pods_Ani_AI.framework */; };
+		306E768A0A09B60BBFE911D3 /* Pods_Ani_AI_Ani_AIUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91921482574CAE16AA0F22E3 /* Pods_Ani_AI_Ani_AIUITests.framework */; };
 		CB0A22BF2A61763F003F5345 /* CenterHorizontal.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0A22BE2A61763F003F5345 /* CenterHorizontal.swift */; };
 		CB0D674F2A710C3F009488DC /* LoaderIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0D674E2A710C3F009488DC /* LoaderIndicator.swift */; };
 		CB0F00A92AA43BDC00487907 /* InstaSynopsisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0F00A82AA43BDC00487907 /* InstaSynopsisViewController.swift */; };
@@ -106,7 +106,7 @@
 		CBF3497A2A6008F400A8DEA3 /* ProfileDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF349792A6008F400A8DEA3 /* ProfileDetailsViewController.swift */; };
 		CBF3497C2A61252700A8DEA3 /* CategorySelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF3497B2A61252700A8DEA3 /* CategorySelectionViewController.swift */; };
 		CBF747DC2A72574C00D64273 /* SimilarCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF747DB2A72574C00D64273 /* SimilarCategoryViewController.swift */; };
-		DBBB048D2167BE0B6061456D /* Pods_Ani_AniUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 821963EE8CA09AA470EF53C4 /* Pods_Ani_AniUITests.framework */; };
+		D10F19F13512ADBBE63A8912 /* Pods_Ani_AITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B320AC3C64EA2F715B89078 /* Pods_Ani_AITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -130,9 +130,13 @@
 		1274616708194282B1685C3F /* Pods-AniTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AniTests.release.xcconfig"; path = "Target Support Files/Pods-AniTests/Pods-AniTests.release.xcconfig"; sourceTree = "<group>"; };
 		213182CA427B989A1C3E3D1B /* Pods-Ani.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ani.debug.xcconfig"; path = "Target Support Files/Pods-Ani/Pods-Ani.debug.xcconfig"; sourceTree = "<group>"; };
 		3515E70B6FB7BB4BAEF4237F /* Pods-Ani-AniUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ani-AniUITests.release.xcconfig"; path = "Target Support Files/Pods-Ani-AniUITests/Pods-Ani-AniUITests.release.xcconfig"; sourceTree = "<group>"; };
-		44A59C60D941C26E7AE79CC5 /* Pods_AniTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AniTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		821963EE8CA09AA470EF53C4 /* Pods_Ani_AniUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ani_AniUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D46FC078D9CF09A7195723B /* Pods-Ani AI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ani AI.release.xcconfig"; path = "Target Support Files/Pods-Ani AI/Pods-Ani AI.release.xcconfig"; sourceTree = "<group>"; };
+		63B9F6AB2CDF8B5FA0D6ADA1 /* Pods-Ani AI-Ani AIUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ani AI-Ani AIUITests.release.xcconfig"; path = "Target Support Files/Pods-Ani AI-Ani AIUITests/Pods-Ani AI-Ani AIUITests.release.xcconfig"; sourceTree = "<group>"; };
+		851368D369514E7C768C10CE /* Pods-Ani AI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ani AI.debug.xcconfig"; path = "Target Support Files/Pods-Ani AI/Pods-Ani AI.debug.xcconfig"; sourceTree = "<group>"; };
+		8B320AC3C64EA2F715B89078 /* Pods_Ani_AITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ani_AITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		91921482574CAE16AA0F22E3 /* Pods_Ani_AI_Ani_AIUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ani_AI_Ani_AIUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		96A78C611AF7DE61C6FA4A13 /* Pods-Ani.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ani.release.xcconfig"; path = "Target Support Files/Pods-Ani/Pods-Ani.release.xcconfig"; sourceTree = "<group>"; };
+		C854D8AE436CBE599E556562 /* Pods-Ani AITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ani AITests.debug.xcconfig"; path = "Target Support Files/Pods-Ani AITests/Pods-Ani AITests.debug.xcconfig"; sourceTree = "<group>"; };
 		CB0A22BE2A61763F003F5345 /* CenterHorizontal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterHorizontal.swift; sourceTree = "<group>"; };
 		CB0D674E2A710C3F009488DC /* LoaderIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoaderIndicator.swift; sourceTree = "<group>"; };
 		CB0F00A82AA43BDC00487907 /* InstaSynopsisViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstaSynopsisViewController.swift; sourceTree = "<group>"; };
@@ -235,9 +239,11 @@
 		CBFFCC172A2605790083094C /* ValidateResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidateResponse.swift; sourceTree = "<group>"; };
 		CBFFCC192A26074E0083094C /* MultipartDataRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipartDataRequest.swift; sourceTree = "<group>"; };
 		CBFFCC1C2A2609BD0083094C /* AppUserDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUserDefault.swift; sourceTree = "<group>"; };
+		D823BD6BCD920823DEE44D53 /* Pods_Ani_AI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ani_AI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA130F69E71D366CBC640EED /* Pods-Ani AITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ani AITests.release.xcconfig"; path = "Target Support Files/Pods-Ani AITests/Pods-Ani AITests.release.xcconfig"; sourceTree = "<group>"; };
 		F71016A33E0B6E652A000CDF /* Pods-Ani-AniUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ani-AniUITests.debug.xcconfig"; path = "Target Support Files/Pods-Ani-AniUITests/Pods-Ani-AniUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		F7BE91FE84037F62D8DB6ABF /* Pods_Ani.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ani.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F90164499CE425F244145A4E /* Pods-AniTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AniTests.debug.xcconfig"; path = "Target Support Files/Pods-AniTests/Pods-AniTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FFE2227C3B9580227C72CD88 /* Pods-Ani AI-Ani AIUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ani AI-Ani AIUITests.debug.xcconfig"; path = "Target Support Files/Pods-Ani AI-Ani AIUITests/Pods-Ani AI-Ani AIUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -245,7 +251,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6B541657A2B2EED6157B3684 /* Pods_Ani.framework in Frameworks */,
+				2CF2BA251755483A3F14A74F /* Pods_Ani_AI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,7 +259,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				10826819A8543A62DA136303 /* Pods_AniTests.framework in Frameworks */,
+				D10F19F13512ADBBE63A8912 /* Pods_Ani_AITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,7 +267,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DBBB048D2167BE0B6061456D /* Pods_Ani_AniUITests.framework in Frameworks */,
+				306E768A0A09B60BBFE911D3 /* Pods_Ani_AI_Ani_AIUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -915,6 +921,12 @@
 				3515E70B6FB7BB4BAEF4237F /* Pods-Ani-AniUITests.release.xcconfig */,
 				F90164499CE425F244145A4E /* Pods-AniTests.debug.xcconfig */,
 				1274616708194282B1685C3F /* Pods-AniTests.release.xcconfig */,
+				851368D369514E7C768C10CE /* Pods-Ani AI.debug.xcconfig */,
+				3D46FC078D9CF09A7195723B /* Pods-Ani AI.release.xcconfig */,
+				FFE2227C3B9580227C72CD88 /* Pods-Ani AI-Ani AIUITests.debug.xcconfig */,
+				63B9F6AB2CDF8B5FA0D6ADA1 /* Pods-Ani AI-Ani AIUITests.release.xcconfig */,
+				C854D8AE436CBE599E556562 /* Pods-Ani AITests.debug.xcconfig */,
+				EA130F69E71D366CBC640EED /* Pods-Ani AITests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -922,9 +934,9 @@
 		F255E5ADCFF3195240835A99 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				F7BE91FE84037F62D8DB6ABF /* Pods_Ani.framework */,
-				821963EE8CA09AA470EF53C4 /* Pods_Ani_AniUITests.framework */,
-				44A59C60D941C26E7AE79CC5 /* Pods_AniTests.framework */,
+				D823BD6BCD920823DEE44D53 /* Pods_Ani_AI.framework */,
+				91921482574CAE16AA0F22E3 /* Pods_Ani_AI_Ani_AIUITests.framework */,
+				8B320AC3C64EA2F715B89078 /* Pods_Ani_AITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -1101,14 +1113,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Ani/Pods-Ani-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Ani AI/Pods-Ani AI-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ani AI/Pods-Ani AI-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Ani/Pods-Ani-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Ani AI/Pods-Ani AI-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		905962B0C71DB9BCD974A068 /* [CP] Check Pods Manifest.lock */ = {
@@ -1126,7 +1139,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Ani-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Ani AI-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -1148,7 +1161,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-AniTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Ani AITests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -1170,7 +1183,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Ani-AniUITests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Ani AI-Ani AIUITests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -1183,15 +1196,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Ani-AniUITests/Pods-Ani-AniUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Ani AI-Ani AIUITests/Pods-Ani AI-Ani AIUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Ani-AniUITests/Pods-Ani-AniUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Ani AI-Ani AIUITests/Pods-Ani AI-Ani AIUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Ani-AniUITests/Pods-Ani-AniUITests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Ani AI-Ani AIUITests/Pods-Ani AI-Ani AIUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -1429,7 +1442,7 @@
 		};
 		CB6539052A24842A002D18F5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 213182CA427B989A1C3E3D1B /* Pods-Ani.debug.xcconfig */;
+			baseConfigurationReference = 851368D369514E7C768C10CE /* Pods-Ani AI.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -1467,7 +1480,7 @@
 		};
 		CB6539062A24842A002D18F5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 96A78C611AF7DE61C6FA4A13 /* Pods-Ani.release.xcconfig */;
+			baseConfigurationReference = 3D46FC078D9CF09A7195723B /* Pods-Ani AI.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -1505,7 +1518,7 @@
 		};
 		CB6539082A24842A002D18F5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F90164499CE425F244145A4E /* Pods-AniTests.debug.xcconfig */;
+			baseConfigurationReference = C854D8AE436CBE599E556562 /* Pods-Ani AITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -1525,7 +1538,7 @@
 		};
 		CB6539092A24842A002D18F5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1274616708194282B1685C3F /* Pods-AniTests.release.xcconfig */;
+			baseConfigurationReference = EA130F69E71D366CBC640EED /* Pods-Ani AITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -1545,7 +1558,7 @@
 		};
 		CB65390B2A24842A002D18F5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F71016A33E0B6E652A000CDF /* Pods-Ani-AniUITests.debug.xcconfig */;
+			baseConfigurationReference = FFE2227C3B9580227C72CD88 /* Pods-Ani AI-Ani AIUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -1563,7 +1576,7 @@
 		};
 		CB65390C2A24842A002D18F5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3515E70B6FB7BB4BAEF4237F /* Pods-Ani-AniUITests.release.xcconfig */;
+			baseConfigurationReference = 63B9F6AB2CDF8B5FA0D6ADA1 /* Pods-Ani AI-Ani AIUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

@@ -19,6 +19,7 @@ class InspirationViewController: BaseVC, AVAudioPlayerDelegate {
     
     var valueee = [String]()
     
+    @IBOutlet weak var btnYoutube: UIButton!
     @IBOutlet weak var imageLogoHeader: UIImageView!
     @IBOutlet weak var imageDropDown: UIImageView!
     @IBOutlet weak var btnSimilar: UIButton!
@@ -188,6 +189,7 @@ class InspirationViewController: BaseVC, AVAudioPlayerDelegate {
             self.btnText.isHidden = false
             self.btnAudio.isHidden = true
             self.btnInstagram.isHidden = true
+            self.btnYoutube.isHidden = true
         }else{
             if isSubCategory{
                 self.btnText.isHidden = false
@@ -562,6 +564,12 @@ class InspirationViewController: BaseVC, AVAudioPlayerDelegate {
         self.videoSelection = false
         self.dropDownTableView.reloadData()
         self.scrollToIndex(self.textIndexContent, self.textContentCollectionView)
+        if searchCategory{
+            self.lblDropDown.text = ""
+            self.imageDropDown.isHidden = true
+            self.btnAudio.isHidden = true
+            
+        }
         self.categoryCollectionView.reloadData()
     }
     
@@ -635,6 +643,9 @@ class InspirationViewController: BaseVC, AVAudioPlayerDelegate {
         self.audioSelection = false
         self.textSelection = false
         self.scrollToIndex(self.currentYtIndex, self.thumbImageCollectionview)
+        if searchCategory{
+            self.btnAudio.isHidden = true
+        }
         self.categoryCollectionView.reloadData()
     }
     
