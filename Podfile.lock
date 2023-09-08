@@ -1,0 +1,56 @@
+PODS:
+  - DropDown (2.3.13)
+  - GSPlayer (0.2.26)
+  - JJFloatingActionButton (2.5.0)
+  - Kingfisher (7.9.1)
+  - MarqueeLabel (4.3.1)
+  - NVActivityIndicatorView (5.1.1):
+    - NVActivityIndicatorView/Base (= 5.1.1)
+  - NVActivityIndicatorView/Base (5.1.1)
+  - ReachabilitySwift (5.0.0)
+  - SDWebImage (5.17.0):
+    - SDWebImage/Core (= 5.17.0)
+  - SDWebImage/Core (5.17.0)
+  - youtube-ios-player-helper (1.0.4)
+  - YoutubePlayer-in-WKWebView (0.2.5)
+
+DEPENDENCIES:
+  - DropDown
+  - GSPlayer
+  - JJFloatingActionButton
+  - Kingfisher (~> 7.0)
+  - MarqueeLabel
+  - NVActivityIndicatorView
+  - ReachabilitySwift
+  - SDWebImage
+  - youtube-ios-player-helper
+  - YoutubePlayer-in-WKWebView (~> 0.2.0)
+
+SPEC REPOS:
+  trunk:
+    - DropDown
+    - GSPlayer
+    - JJFloatingActionButton
+    - Kingfisher
+    - MarqueeLabel
+    - NVActivityIndicatorView
+    - ReachabilitySwift
+    - SDWebImage
+    - youtube-ios-player-helper
+    - YoutubePlayer-in-WKWebView
+
+SPEC CHECKSUMS:
+  DropDown: 8a2116376c1981888557f72ec2ffc9a5e0e456ec
+  GSPlayer: 1ee7c282d6e6125ca9c0c684d91b8a31512ccfe6
+  JJFloatingActionButton: fdc3aefb0f28f04d0f988fa25d5fac97028a9ea7
+  Kingfisher: 1d14e9f59cbe19389f591c929000332bf70efd32
+  MarqueeLabel: da4b9cf619fe70c75d7bab4580b0b4a0b868aa6b
+  NVActivityIndicatorView: 1f6c5687f1171810aa27a3296814dc2d7dec3667
+  ReachabilitySwift: 985039c6f7b23a1da463388634119492ff86c825
+  SDWebImage: 750adf017a315a280c60fde706ab1e552a3ae4e9
+  youtube-ios-player-helper: e9b97535e816db3152179d84d999bc1807ecd689
+  YoutubePlayer-in-WKWebView: 4dad12b3ece938a6456fa4374df78942f88b485a
+
+PODFILE CHECKSUM: 5ff504de7aa2e49366dd24b544b6bf9f230bdbd4
+
+COCOAPODS: 1.12.1

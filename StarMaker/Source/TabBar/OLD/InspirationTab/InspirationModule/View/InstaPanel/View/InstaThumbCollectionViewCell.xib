@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="InstaThumbCollectionViewCell" reuseIdentifier="InstaThumbCollectionViewCell" id="gTV-IL-0wX" customClass="InstaThumbCollectionViewCell" customModule="Ani_AI" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="164" height="277"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="164" height="277"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="rmX-aZ-OzF">
+                        <rect key="frame" x="1" y="1" width="162" height="275"/>
+                    </imageView>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="9" translatesAutoresizingMaskIntoConstraints="NO" id="yU9-cf-VIa">
+                        <rect key="frame" x="124" y="139" width="35" height="123"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DQV-zr-noT">
+                                <rect key="frame" x="0.0" y="0.0" width="35" height="35"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" image="TextIcon"/>
+                                <connections>
+                                    <action selector="summaryBtnAction:" destination="gTV-IL-0wX" eventType="touchUpInside" id="qAU-2S-hOO"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZfD-tL-OIR">
+                                <rect key="frame" x="0.0" y="44" width="35" height="35"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" image="BookmarkIcon"/>
+                                <connections>
+                                    <action selector="bookMarkBtnAction:" destination="gTV-IL-0wX" eventType="touchUpInside" id="cxR-nY-Vhm"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wfN-AL-Fdg">
+                                <rect key="frame" x="0.0" y="88" width="35" height="35"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" image="SimilarIcon"/>
+                                <connections>
+                                    <action selector="similarBtnAction:" destination="gTV-IL-0wX" eventType="touchUpInside" id="5h8-D5-Xr4"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                    </stackView>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="play" translatesAutoresizingMaskIntoConstraints="NO" id="AWv-AL-lmi">
+                        <rect key="frame" x="45.666666666666657" y="102" width="73" height="73"/>
+                    </imageView>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="yU9-cf-VIa" secondAttribute="trailing" constant="5" id="2CZ-AW-S6F"/>
+                <constraint firstAttribute="bottom" secondItem="rmX-aZ-OzF" secondAttribute="bottom" constant="1" id="8oq-IX-ASP"/>
+                <constraint firstItem="rmX-aZ-OzF" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="1" id="Jc5-9n-yR1"/>
+                <constraint firstAttribute="trailing" secondItem="rmX-aZ-OzF" secondAttribute="trailing" constant="1" id="OZu-Fu-G4y"/>
+                <constraint firstItem="rmX-aZ-OzF" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="1" id="oPs-uz-QYQ"/>
+                <constraint firstItem="AWv-AL-lmi" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" id="vKV-24-WP5"/>
+                <constraint firstAttribute="bottom" secondItem="yU9-cf-VIa" secondAttribute="bottom" constant="15" id="vlZ-pR-ohy"/>
+                <constraint firstItem="AWv-AL-lmi" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="xju-Yi-Lyy"/>
+            </constraints>
+            <size key="customSize" width="164" height="277"/>
+            <connections>
+                <outlet property="btnBookMark" destination="ZfD-tL-OIR" id="S8O-v9-BRv"/>
+                <outlet property="btnSimilar" destination="wfN-AL-Fdg" id="3Pr-JR-x5c"/>
+                <outlet property="btnSummary" destination="DQV-zr-noT" id="JN7-OU-04v"/>
+                <outlet property="instaImageView" destination="rmX-aZ-OzF" id="Mec-ao-6cw"/>
+            </connections>
+            <point key="canvasLocation" x="36.641221374045799" y="99.647887323943664"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="BookmarkIcon" width="35" height="35"/>
+        <image name="SimilarIcon" width="35" height="35"/>
+        <image name="TextIcon" width="35" height="35"/>
+        <image name="play" width="73" height="73"/>
+    </resources>
+</document>

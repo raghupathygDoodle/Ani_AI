@@ -1,0 +1,134 @@
+{
+  "categoryList": [
+    {
+      "category": "Beauty",
+      "subcategory": [
+        {
+          "title": "Skincare",
+          "isSelected": false,
+          "url": [
+            "https://user-images.githubusercontent.com/90382113/170890384-43214cc8-79c6-4815-bcb7-e22f6f7fe1bc.mp4",
+            "https://user-images.githubusercontent.com/90382113/170887700-e405c71e-fe31-458d-8572-aea2e801eecc.mp4",
+            "https://user-images.githubusercontent.com/90382113/170885742-d82e3b59-e45a-4fcf-a851-fed58ff5a690.mp4"
+          ]
+        },
+        {
+          "title": "Haircare",
+          "isSelected": false,
+          "url": [
+            "https://scontent-bom1-1.cdninstagram.com/v/t66.30100-16/319171942_1010206450434870_2986270137364367578_n.mp4?_nc_ht=scontent-bom1-1.cdninstagram.com&_nc_cat=106&_nc_ohc=Yv6tz-uRxOwAX9YroAL&edm=AP_V10EBAAAA&ccb=7-5&oh=00_AfB_4pwuY6CDrc_UflJCy8dhZfHv5t9OiUubllpaU32vfQ&oe=649DD69B&_nc_sid=2999b8",
+            "https://scontent-bom1-1.cdninstagram.com/v/t66.30100-16/10000000_949026989573919_2415599828854355828_n.mp4?_nc_ht=scontent-bom1-1.cdninstagram.com&_nc_cat=103&_nc_ohc=vB3_PWnWZucAX-3HtAp&edm=AP_V10EBAAAA&ccb=7-5&oh=00_AfDNSWiSTL56b-kTUqcwMuUdstbZJsPcNaUmcRug0Jz-AA&oe=649E7B07&_nc_sid=2999b8",
+            "https://scontent-bom1-1.cdninstagram.com/v/t50.2886-16/342974586_240188481854029_6163632147570988760_n.mp4?_nc_ht=scontent-bom1-1.cdninstagram.com&_nc_cat=101&_nc_ohc=NejrpLbW7NQAX9bqicC&edm=AP_V10EBAAAA&ccb=7-5&oh=00_AfCWr1awf_3YNHgCuv3Y-ndMsH9W9fIn0Db-imuoQOh9RA&oe=649E14AB&_nc_sid=2999b8",
+            "https://scontent-bom1-1.cdninstagram.com/v/t66.30100-16/10000000_185536204338726_213254355579506688_n.mp4?_nc_ht=scontent-bom1-1.cdninstagram.com&_nc_cat=106&_nc_ohc=ET5PLDMmgxsAX_NLpGz&edm=AP_V10EBAAAA&ccb=7-5&oh=00_AfDbrHXlrYBKCDOAn4einFUrYqdlunT-y0Y0bGU_stUOTg&oe=649DD704&_nc_sid=2999b8",
+            "https://scontent-bom1-1.cdninstagram.com/v/t50.2886-16/341116195_782572019925193_8201156372649979362_n.mp4?_nc_ht=scontent-bom1-1.cdninstagram.com&_nc_cat=101&_nc_ohc=krdDpy-7A18AX_WAB9_&edm=AP_V10EBAAAA&ccb=7-5&oh=00_AfDy5ppPBCavDLUi9UZSCdTIVEL88UTxZfy_BKyiE22stA&oe=649E3641&_nc_sid=2999b8",
+            "https://scontent-bom1-2.cdninstagram.com/v/t50.2886-16/342382727_1413578249413425_1313909544645079056_n.mp4?_nc_ht=scontent-bom1-2.cdninstagram.com&_nc_cat=109&_nc_ohc=233JTigoqgYAX8-Xfu_&edm=AP_V10EBAAAA&ccb=7-5&oh=00_AfD9mTcK_a7j2p1toiju4Jt0ljJbu08RMh7dq_2wHjoHtA&oe=649DECFF&_nc_sid=2999b8"
+          ]
+        },
+        {
+          "title": "Nails",
+          "isSelected": false,
+          "url": [
+            "https://scontent-bom1-1.cdninstagram.com/v/t50.2886-16/342792291_910841906817378_1168204658159373849_n.mp4?_nc_ht=scontent-bom1-1.cdninstagram.com&_nc_cat=106&_nc_ohc=eBiYf27-iBwAX8tL1yV&edm=AP_V10EBAAAA&ccb=7-5&oh=00_AfDuZ6mWOHVmtdxaIn5LwhDxrP4leo7ccpM0UKPNUXQGiw&oe=649E6701&_nc_sid=2999b8",
+            "https://scontent-bom1-1.cdninstagram.com/v/t66.30100-16/10000000_2345693558950672_7200971522240510312_n.mp4?_nc_ht=scontent-bom1-1.cdninstagram.com&_nc_cat=104&_nc_ohc=1T8xPPeWthcAX-knCpo&edm=AP_V10EBAAAA&ccb=7-5&oh=00_AfCJuImw32UG2iOfS4lDr50UwYaeKqrQmBzDucIkuDwWGQ&oe=649E011F&_nc_sid=2999b8",
+            "https://scontent-bom1-2.cdninstagram.com/o1/v/t16/f1/m82/754C6737F94C0CEE47428A3DD4F6D1BD_video_dashinit.mp4?efg=eyJxZV9ncm91cHMiOiJbXCJpZ193ZWJfZGVsaXZlcnlfdnRzX290ZlwiXSIsInZlbmNvZGVfdGFnIjoidnRzX3ZvZF91cmxnZW4uNzIwLmNsaXBzLmJhc2VsaW5lIn0&_nc_ht=scontent-bom1-2.cdninstagram.com&_nc_cat=107&vs=890712732025422_1306163720&_nc_vs=HBksFQIYT2lnX3hwdl9yZWVsc19wZXJtYW5lbnRfcHJvZC83NTRDNjczN0Y5NEMwQ0VFNDc0MjhBM0RENEY2RDFCRF92aWRlb19kYXNoaW5pdC5tcDQVAALIAQAVABgkR0pMSk14UnZFMFJxZ1MwQ0FGM3FYLUpYYndWamJxX0VBQUFGFQICyAEAKAAYABsAFQAAJoiJlKyqs%2BI%2FFQIoAkMzLBdAQJU%2FfO2RaBgSZGFzaF9iYXNlbGluZV8xX3YxEQB1%2FgcA&_nc_rid=507a55cf92&ccb=9-4&oh=00_AfDwhmhfxg8KpUL2nFCIcLaVym0U45FD8kThRhyCRJGDKg&oe=649E175C&_nc_sid=2999b8",
+            "https://scontent-bom1-2.cdninstagram.com/v/t66.30100-16/316638553_1314646292731388_4784841068895622793_n.mp4?_nc_ht=scontent-bom1-2.cdninstagram.com&_nc_cat=108&_nc_ohc=JeYKc2kAmY4AX8wICPt&edm=AP_V10EBAAAA&ccb=7-5&oh=00_AfAK7KLqWEYZBTOOqv8qtCHTAsn2D7YyoAWIFtNTIVOTsA&oe=649E4B49&_nc_sid=2999b8",
+            "https://scontent-bom1-1.cdninstagram.com/v/t66.30100-16/47343132_913379416406369_4502773181201675449_n.mp4?_nc_ht=scontent-bom1-1.cdninstagram.com&_nc_cat=105&_nc_ohc=0LxltEyYMOEAX8iIszc&edm=AP_V10EBAAAA&ccb=7-5&oh=00_AfA0Kh53L6Kqgvy7AiLc8q-mMr4UYd7xjbELzDBqPKbMkw&oe=649E4BFA&_nc_sid=2999b8",
+            "https://scontent-bom1-1.cdninstagram.com/v/t66.30100-16/333693954_252195324159517_1785304323571488180_n.mp4?_nc_ht=scontent-bom1-1.cdninstagram.com&_nc_cat=101&_nc_ohc=j_r7lkoN3MUAX99lJjg&edm=AP_V10EBAAAA&ccb=7-5&oh=00_AfAvWIFLRXTTjbNlVTRcAcVL16KQIP2otMiXMRKiIL3lpw&oe=649DE5AE&_nc_sid=2999b8",
+            "https://scontent-bom1-1.cdninstagram.com/v/t50.2886-16/346311060_6085086834862126_3942553272750487258_n.mp4?_nc_ht=scontent-bom1-1.cdninstagram.com&_nc_cat=110&_nc_ohc=gio0dRl8HTcAX8tXb9r&edm=AP_V10EBAAAA&ccb=7-5&oh=00_AfBmwdZAcya0yq7KgQfg5LKG_COinI4vbzkcb0sfXKLKEg&oe=649E0F88&_nc_sid=2999b8",
+            "https://scontent-bom1-1.cdninstagram.com/v/t66.30100-16/10000000_625862622338477_2657719241386097881_n.mp4?_nc_ht=scontent-bom1-1.cdninstagram.com&_nc_cat=105&_nc_ohc=QavbmoSsnOcAX-ThYDt&edm=AP_V10EBAAAA&ccb=7-5&oh=00_AfCfsRxOPwTaHOWaWtsVNVh1T_gQ77Pv-exagsPBPx31Ag&oe=649E2283&_nc_sid=2999b8",
+            "https://scontent-bom1-2.cdninstagram.com/v/t66.30100-16/334419509_1260684351538596_3535001397123780402_n.mp4?_nc_ht=scontent-bom1-2.cdninstagram.com&_nc_cat=100&_nc_ohc=tiEVfyQ-sUcAX9g9_d-&edm=AP_V10EBAAAA&ccb=7-5&oh=00_AfCGxKWjhX8twl8NwJSj15GkgKUv-0SEbyWLF0wklUN8UQ&oe=649E2ACA&_nc_sid=2999b8"
+          ]
+        },
+        {
+          "title": "Makeup",
+          "isSelected": false,
+          "url": [
+            "https://user-images.githubusercontent.com/90382113/170888784-5d9a7623-10c8-4ca2-8585-fdb29b2ed037.mp4",
+            "https://user-images.githubusercontent.com/90382113/170889265-7ed9a56c-dd5f-4d78-b453-18b011644da0.mp4"
+          ]
+        },{
+            "title": "Makeup",
+            "isSelected": false
+        }
+      ]
+    },
+    {
+      "category": "Animals and Pets",
+      "subcategory": [{
+          "title": "Cat",
+          "isSelected": false,
+          "url": [
+            "https://user-images.githubusercontent.com/90382113/170890384-43214cc8-79c6-4815-bcb7-e22f6f7fe1bc.mp4",
+            
+            "https://user-images.githubusercontent.com/90382113/170885742-d82e3b59-e45a-4fcf-a851-fed58ff5a690.mp4"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Art & Craft",
+      "subcategory": []
+    },
+    {
+      "category": "Automobile",
+      "subcategory": []
+    },
+    {
+      "category": "Lifestyle",
+      "subcategory": []
+    },
+    {
+      "category": "Entertainment",
+      "subcategory": []
+    },
+    {
+      "category": "Comedy",
+      "subcategory": []
+    },
+    {
+      "category": "Finance",
+      "subcategory": []
+    },
+    {
+      "category": "Food & Drink",
+      "subcategory": []
+    },
+    {
+      "category": "Gaming",
+      "subcategory": []
+    },
+    {
+      "category": "Health & Fitness",
+      "subcategory": []
+    },
+    {
+      "category": "Motivational",
+      "subcategory": []
+    },
+    {
+      "category": "People and Vlogs",
+      "subcategory": []
+    },
+    {
+      "category": "Science & Facts",
+      "subcategory": []
+    },
+    {
+      "category": "Sports",
+      "subcategory": []
+    },
+    {
+      "category": "Technology",
+      "subcategory": []
+    },
+    {
+      "category": "Travel",
+      "subcategory": []
+    },
+    {
+      "category": "Entertainment",
+      "subcategory": []
+    }
+  ]
+}
+
